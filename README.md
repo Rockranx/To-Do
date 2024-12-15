@@ -54,7 +54,7 @@ A full-stack project, the Todo List Application was created to help users effect
     Git
 2. Installation
     1. Clone the repository: 
-        git clone [<repository_url>](https://github.com/Rockranx/To-Do)
+        git clone https://github.com/Rockranx/To-Do
     2. Navigate to the backend directory: 
         cd backend
     3. Install backend dependencies: 
