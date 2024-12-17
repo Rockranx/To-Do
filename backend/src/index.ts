@@ -23,8 +23,8 @@ const setupServer = async () => {
     console.log('Database connection asasasestablished.');
     await dbCreate();
     const app = express();
-
-    app.use(cors()); 
+    const allowedOrigins = ["https://everyvote-test.web.app/"];
+    app.use(cors({ origin: allowedOrigins, credentials: true }));
     app.use(express.json());
     // app.use(clientUse());
     app.use(routeMiddleware);
